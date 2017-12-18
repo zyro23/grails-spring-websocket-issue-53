@@ -63,6 +63,9 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-remote-driver:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-api:3.6.0"
+
+    compile "org.grails.plugins:grails-spring-websocket:2.3.0"
+    compile "org.springframework.boot:spring-boot-starter-security"
 }
 
 bootRun {
